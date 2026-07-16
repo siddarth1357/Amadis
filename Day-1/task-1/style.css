@@ -1,0 +1,111 @@
+/* ====== BODY STYLING ====== */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 70px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+/* ====== CONTAINER (Class) ====== */
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 450px;
+    width: 100%;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* ====== FORM TITLE (Class) ====== */
+.form-title {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+/* ====== FORM (Class + ID) ====== */
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ====== FORM GROUP (Class) ====== */
+.form-group {
+    margin-bottom: 80px;
+}
+
+/* ====== LABEL (Class) ====== */
+.form-label {
+    display: block;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 80px;
+    font-size: 14px;
+}
+
+/* ====== INPUT (Class) ====== */
+.form-input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 80px;
+    font-size: 17px;
+    transition: 0.3s;
+    background: #f8f9fa;
+    box-sizing: border-box;
+}
+
+/* ====== INPUT FOCUS (Class) ====== */
+.form-input:focus {
+    border-color: #667eea;
+    outline: none;
+    background: white;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* ====== SUBMIT BUTTON (Class) ====== */
+.btn-submit {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+}
+
+/* ====== RESET BUTTON (Class) ====== */
+.btn-reset {
+    width: 100%;
+    padding: 14px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.btn-reset:hover {
+    background: #c0392b;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(231, 76, 60, 0.4);
+}
