@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple LocalStorage</title>
+</head>
+<body>
+    <h1>📝 My Notebook</h1>
+    
+    <!-- Save -->
+    <div>
+        <h3>Save Data</h3>
+        Key: <input type="text" id="saveKey">
+        Value: <input type="text" id="saveValue">
+        <button id="saveBtn">Save</button>
+    </div>
+    
+    <!-- Get -->
+    <div>
+        <h3>Get Data</h3>
+        Key: <input type="text" id="getKey">
+        <button id="getBtn">Get</button>
+        <p id="result"></p>
+    </div>
+    
+    <!-- Delete -->
+    <div>
+        <h3>Delete Data</h3>
+        Key: <input type="text" id="deleteKey">
+        <button id="deleteBtn">Delete</button>
+    </div>
+    
+    <!-- Clear All -->
+    <div>
+        <button id="clearBtn">Clear All</button>
+    </div>
+    
+    <div>
+        <h3>All Saved Data</h3>
+        <button id="showBtn">Show All</button>
+        <pre id="display"></pre>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
